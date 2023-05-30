@@ -1,0 +1,37 @@
+{
+  "root": true,
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "node": true,
+    "commonjs": true,
+    "vue/setup-compiler-macros": true
+  },
+  "parser": "vue-eslint-parser",
+  "extends": [
+    "plugin:@typescript-eslint/recommended",
+    "plugin:vue/vue3-essential",
+    "eslint:recommended",
+    "@vue/prettier"
+  ],
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaVersion": "latest",
+    "parser": "@typescript-eslint/parser"
+  },
+  "plugins": ["simple-import-sort"],
+  "rules": {
+    "no-console": "warn",
+    "no-debugger": "warn",
+    "prettier/prettier": [
+      "warn",
+      {
+        // singleQuote: none,
+        // semi: false,
+        "trailingComma": "es5"
+      }
+    ],
+    "simple-import-sort/imports": "error",
+    "simple-import-sort/exports": "error"
+  }
+}
