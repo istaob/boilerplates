@@ -21,15 +21,17 @@
     "simple-import-sort"
   ],
   "rules": {
+    "no-console": "warn",
+    "no-debugger": "warn",
+    "camelcase": "error",
+    "spaced-comment": "error",
+    "quotes": ["error", "single"],
+    "no-duplicate-imports": "error",
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
     "react/react-in-jsx-scope": "off",
     "simple-import-sort/imports": "error",
-    "simple-import-sort/exports": "error",
-    "camelcase": "error",
-    "spaced-comment": "error",
-    "quotes": ["error", "single"],
-    "no-duplicate-imports": "error"
+    "simple-import-sort/exports": "error"
   },
   "settings": {
     "import/resolver": {

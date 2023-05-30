@@ -2,9 +2,9 @@ import { ReactComponent as ReactLogo } from '@/assets/react.svg';
 
 function App() {
   return (
-    <div className="w-6/12 mx-auto py-24 flex flex-col items-center">
+    <div className="flex flex-col items-center gap-4 pt-24">
       <ReactLogo />
-      <h1 className="mt-6">Vite + React + TypeScript + Tailwind CSS</h1>
+      <div>Vite 4 + React 18 + TypeScript 5 + Tailwind CSS</div>
     </div>
   );
 }

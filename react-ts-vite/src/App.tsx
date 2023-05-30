@@ -2,9 +2,17 @@ import { ReactComponent as ReactLogo } from '@/assets/react.svg';
 
 function App() {
   return (
-    <div>
+    <div
+      style={{
+        display: 'flex',
+        flexDirection: 'column',
+        alignItems: 'center',
+        gap: '1rem',
+        paddingTop: '100px',
+      }}
+    >
       <ReactLogo />
-      <h1>Vite + React + TypeScript</h1>
+      <div>Vite 4 + React 18 + TypeScript 5</div>
     </div>
   );
 }
