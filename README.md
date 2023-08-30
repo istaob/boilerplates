@@ -10,10 +10,10 @@
 ## Quick Start
 
 ```bash
-npx degit https://github.com/Tyangs/boilerplates/{boilerplate-name}/{custom-dir-name}
+npx degit https://github.com/Tyangs/boilerplates/{boilerplate-name} {custom-dir-name}
 
 # e.g.
-npx degit https://github.com/Tyangs/boilerplates/react-ts-vite/react-demo
+npx degit https://github.com/Tyangs/boilerplates/react-ts-vite react-demo
 ```
 
 ## Templates
